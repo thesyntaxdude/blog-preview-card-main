@@ -25,15 +25,18 @@ h1 {
 .container{
     background-color: white;
     width: 350px;
-    height: 500px;
-    margin: 25% auto;
+    height: 520px;
+    margin: 20% auto;
     padding: 18px;
-    border-radius: 10px;
+    border-radius: 15px;
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 7px 5px hsl(0, 0%, 7%);
 }
 
 .featuredimg{
     width: 310px;
-    height: auto;
+    height: 220px;
+    object-fit: cover;
     border-radius: 10px;
     display: block;
     margin: auto;
@@ -54,6 +57,7 @@ small:not(.date){
 .date{
     display: block;
     margin-bottom: 16px;
+    font-weight: 800;
 }
 h1{
     font-size: 1.3rem;
@@ -64,8 +68,18 @@ h1{
     line-height: 1.4rem;
     text-align: ;
 }
-
-
+.authorimgContainer{
+    margin-top: 22px;
+    margin-bottom: 0;
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+.authorimg{
+    width: 35px;
+}
 
 
 
