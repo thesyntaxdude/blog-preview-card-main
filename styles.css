@@ -13,7 +13,7 @@ body{
     background-color: hsl(47, 88%, 63%);
     font-weight: 500;
     color: hsl(0, 0%, 42%);
-    padding: 10%;
+    height: 100vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -80,7 +80,6 @@ h1 a:hover, small a:hover{
 .summary{
     font-size: 16px;
     line-height: 1.4rem;
-    text-align: ;
 }
 .authorimgContainer{
     margin-top: 22px;
@@ -95,45 +94,3 @@ h1 a:hover, small a:hover{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* attribution styles*/
-.attribution {
-    font-size: 11px;
-    text-align: center;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
-}
