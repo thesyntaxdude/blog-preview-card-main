@@ -43,4 +43,4 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [@thesyntaxdude](https://www.frontendmentor.io/profile/thesyntaxdude)
-- Twitter - [@yourusername](https://www.twitter.com/princedanielsX)
+- Twitter - [@princedanielsX](https://www.twitter.com/princedanielsX)
