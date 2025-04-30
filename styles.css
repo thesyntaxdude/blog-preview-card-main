@@ -12,41 +12,58 @@
 body{
     background-color: hsl(47, 88%, 63%);
     font-weight: 500;
+    color: hsl(0, 0%, 42%);
 }
 
-small,
+small:not(.date),
 .author,
 h1 {
     font-weight: 800;
+    color: hsl(0, 0%, 7%);
 }
 
 .container{
     background-color: white;
-    width: 320px;
-    height: 470px;
+    width: 350px;
+    height: 500px;
     margin: 25% auto;
-    padding: 16px;
+    padding: 18px;
     border-radius: 10px;
 }
 
 .featuredimg{
-    width: 288px;
+    width: 310px;
     height: auto;
     border-radius: 10px;
-    margin-bottom: 20px;
+    display: block;
+    margin: auto;
 }
 
 
 
-small{
+
+small:not(.date){
     background-color: hsl(47, 88%, 63%);
     padding: 5px 10px;
     border-radius: 5px;
     display: inline-block;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
+    margin-top: 22px;
 }
 
-
+.date{
+    display: block;
+    margin-bottom: 16px;
+}
+h1{
+    font-size: 1.3rem;
+    margin-bottom: 18px;
+}
+.summary{
+    font-size: 16px;
+    line-height: 1.4rem;
+    text-align: ;
+}
 
 
 
